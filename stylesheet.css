@@ -1,21 +1,56 @@
+@font-face
+{
+    font-family: Hero-Regular; src: url('Hero-Light-200.otf');
+
+}
 body
 {
+    
     margin: auto;
+    background-color:black;
+    font-family: Hero-Regular, sans-serif;
 }
-
+header
+{
+    font-size: 24px;
+    
+}
 .thing1
 {
+
     background-color:#1F2937;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
+}
+h1
+{
+    font-family: Hero-Regular, sans-serif;
+    font-size: 48px;
+    color:#F9FAF8;
+    margin-block: 0;
+}
+.p1
+{
+    margin-block-start: auto;
+    font-size: 18px;
+    color: #E5E7Eb;
 }
 
+button
+{
+    font-size: 18px;
+    padding: 5px 20px;
+    border-color: #3882F6;
+    border-radius: 30px;
+    color: #E5E7Eb;
+    background-color: #3882F6;
+}
 .headercontainer
 {
     display:flex;
     justify-content:space-between;
     margin-left: 10%;
     margin-right:10%;
-    margin-bottom:5%;
+    
     padding-top:1%;
 }
 .headercontainer > div
@@ -27,20 +62,38 @@ body
 .menu
 {
     display:flex;
+    color: #F9FAF8;
+    
     
     
 }
 .m1, .m2
 {
-margin-right: 10px;
+margin-right: 30px;
+
 }
 .container1
 {
     display:flex;
-    justify-content: space-around;
-    
-    
+    justify-content: center;
+    flex-wrap: wrap;
 }
+.left1 ,.right1
+{
+   margin: 0px 150px;
+}
+
+.left1
+{
+    margin-top: 3%;
+}
+.img1
+{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+}
+
 
 .container1 > div
 {
@@ -50,22 +103,81 @@ margin-right: 10px;
 .thing2
 {
 
+    padding-top: 2rem;
+padding-bottom: 5rem;
+background-color: white;
 }
 
 h2
 {
     text-align:center;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 .circles
 {
-
+    flex-wrap: wrap;
 display:flex;
 justify-content: center;
+
 }
 
 .circle
 {
+    
     margin: auto 50px;
+    text-align: center;
+   
+    
+}
+.circlerounded
+{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+  height: 100px;
 }
 
+.circlerounded.img2:hover
+{
+    width: 200px;
+    height: 200px;
+}
+.img2
+{
+    width: 100px;
+}
+.thing3
+{
+    background-color: #E5E7EB;
+    padding:5rem;
+}
+.p2
+{
+    color:rgba(131, 129, 129, 0.527);
+    
+    font-size: 36px;
+    width: 500px;
+}
+
+.quote
+{
+    display:flex;
+    justify-content: center;
+    
+}
+
+footer
+{
+    background-color:#1F2937;
+   padding-top: 3px;
+   
+}
+
+h4
+
+{
+    color:#3881f696;
+    margin-left: 5%;
+    margin-block: 0px;
+    font-size: 10px;
+}
