@@ -1,0 +1,71 @@
+body
+{
+    margin: auto;
+}
+
+.thing1
+{
+    background-color:#1F2937;
+    padding-bottom: 5%;
+}
+
+.headercontainer
+{
+    display:flex;
+    justify-content:space-between;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom:5%;
+    padding-top:1%;
+}
+.headercontainer > div
+{
+ 
+ 
+}
+
+.menu
+{
+    display:flex;
+    
+    
+}
+.m1, .m2
+{
+margin-right: 10px;
+}
+.container1
+{
+    display:flex;
+    justify-content: space-around;
+    
+    
+}
+
+.container1 > div
+{
+    
+}
+
+.thing2
+{
+
+}
+
+h2
+{
+    text-align:center;
+    margin-bottom: 5rem;
+}
+.circles
+{
+
+display:flex;
+justify-content: center;
+}
+
+.circle
+{
+    margin: auto 50px;
+}
+
